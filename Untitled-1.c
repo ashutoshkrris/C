@@ -7,7 +7,7 @@ int main()
     {
         if(j%2==0)
         j=1;
-        else
+        else //else part
         j=0;
         while (j<=i)
         {
