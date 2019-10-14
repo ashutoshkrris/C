@@ -6,8 +6,10 @@ int main()
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-        printf("%d ",2*i-1);
+        printf("%d",2*i-1);
+        if(i<n)
+        printf("+");
         s+=2*i-1;
     }
-    printf("\nSum is %d\n",s);
+    printf("=%d\n",s);
 }
