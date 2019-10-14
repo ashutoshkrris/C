@@ -12,6 +12,6 @@ int main()
         s+=n;
     }
     printf("\nSum is %d",s);
-    av=s/m;
-    printf("\nAverage is %f\n",av);
+    av=(float)s/m;
+    printf("\nAverage is %.2f\n",av);
 }
