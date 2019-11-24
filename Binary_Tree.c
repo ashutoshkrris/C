@@ -49,4 +49,5 @@ For right child of 5 , Enter data (-1 for no node) : -1
                            2     5
                          /  \
                         3    4
+
 */
